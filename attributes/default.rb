@@ -43,6 +43,7 @@ default['openvpn']['key']['city']           = 'San Francisco'
 default['openvpn']['key']['org']            = 'Fort Funston'
 default['openvpn']['key']['email']          = 'admin@foobar.com'
 default['openvpn']['key']['message_digest'] = 'sha256'
+default['openvpn']['key']['crl_days']       = 30
 
 # Cookbook attributes
 default['openvpn']['client_prefix']   = 'vpn-prod'
